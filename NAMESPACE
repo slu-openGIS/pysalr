@@ -2,4 +2,5 @@
 
 export(pyr_import)
 export(pyr_install)
+importFrom(jsonlite,parse_json)
 importFrom(jsonlite,read_json)
