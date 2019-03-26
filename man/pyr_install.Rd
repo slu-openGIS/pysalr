@@ -4,10 +4,13 @@
 \alias{pyr_install}
 \title{Install saveModelOutput.py}
 \usage{
-pyr_install(path)
+pyr_install(path, overwrite = TRUE)
 }
 \arguments{
-\item{path}{}
+\item{path}{File path where script should be placed}
+
+\item{overwrite}{Overwrite files if they exist. If this is FALSE and the file exists
+an error will be thrown.}
 }
 \description{
 Add the \code{saveModelOutput.py} to a project.
