@@ -15,7 +15,8 @@ BugReports: https://github.com/slu-openGIS/pysalr
 Encoding: UTF-8
 LazyData: true
 Imports:
-    fs
+    fs,
+    jsonlite
 Suggests:
     testthat,
     knitr,
